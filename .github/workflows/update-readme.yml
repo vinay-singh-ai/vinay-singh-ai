@@ -1,0 +1,27 @@
+# update-readme.yml — Auto-updates README with latest GitHub activity
+# Runs every 6 hours + on manual trigger
+# Uses jamesgeorge007/github-activity-readme to inject activity into placeholder section
+
+name: Update README with Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # Every 6 hours
+  workflow_dispatch:          # Manual trigger from Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Inject latest activity into README
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "🔄 Auto-update: recent activity"
+          MAX_LINES: 5

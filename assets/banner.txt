@@ -1,0 +1,105 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║              GITHUB PROFILE BANNER — DESIGN SPECIFICATION           ║
+║              Vinay Kumar Singh · AVYON Technologies · TruthChat     ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+PURPOSE:
+  This file documents the banner design system used across the GitHub
+  profile and LinkedIn. The rendered banner uses capsule-render.vercel.app
+  inside README.md (no static image file required).
+
+═══════════════════════════════════════════════════════════════════════
+
+CAPSULE-RENDER BANNER (Active — embedded in README.md):
+  URL: https://capsule-render.vercel.app/api
+  Params:
+    type=waving
+    color=0:0d1117,50:0f2942,100:1a1a2e
+    height=145
+    section=header
+    text=Vinay%20Kumar%20Singh
+    fontSize=44
+    fontColor=58a6ff
+    animation=fadeIn
+    fontAlignY=43
+    desc=Building%20AI%20Systems%20That%20Don%27t%20Lie
+    descAlignY=65
+    descColor=8b949e
+    descSize=17
+
+═══════════════════════════════════════════════════════════════════════
+
+DESIGN SYSTEM — COLOR TOKENS:
+  Primary Blue:     #58a6ff   (headings, key highlights, rings)
+  Background Dark:  #0d1117   (GitHub dark base)
+  Card Background:  #0f2942   (accent sections, area graphs)
+  Gradient Mid:     #1a1a2e   (wave gradient midpoint)
+  Text Muted:       #8b949e   (secondary text, descriptions)
+  Accent Orange:    #ff6b35   (fire stat, CTAs)
+  Success Green:    #22c55e   (status badges)
+
+═══════════════════════════════════════════════════════════════════════
+
+TYPOGRAPHY:
+  Display Font:  JetBrains Mono (used in typing animation)
+  Body Font:     Inter / System default (GitHub renders markdown)
+
+═══════════════════════════════════════════════════════════════════════
+
+BANNER COPY (for external design tools - LinkedIn banner 1584x396px):
+  Line 1:  Vinay Kumar Singh
+  Line 2:  Founder & CEO | AVYON Technologies | AI Architect
+  Line 3:  Building verifiable, secure AI systems for regulated enterprises
+  Style:   Dark navy gradient (#0d1117 → #0f2942)
+           Binary/circuit pattern overlay at low opacity
+           Font: Inter or JetBrains Mono
+           Accent: subtle blue glow on name (#58a6ff)
+
+═══════════════════════════════════════════════════════════════════════
+
+SERVICES USED IN README:
+  capsule-render.vercel.app         — Wave header/footer
+  readme-typing-svg.demolab.com     — Typing animation
+  skillicons.dev                    — Skill icons (dark theme)
+  github-readme-stats.vercel.app    — Stats cards
+  github-readme-streak-stats.herokuapp.com — Streak stats
+  github-readme-activity-graph.vercel.app  — Activity graph
+  github-profile-trophy.vercel.app  — Trophies
+  komarev.com/ghpvc                 — Profile view counter
+  img.shields.io                    — Custom badges
+
+═══════════════════════════════════════════════════════════════════════
+
+REPOSITORY STRUCTURE:
+  vinay-singh-ai/
+  ├── README.md                          ← Profile README (live on github.com/vinay-singh-ai)
+  ├── .github/
+  │   └── workflows/
+  │       ├── snake.yml                  ← Contribution snake animation
+  │       └── update-readme.yml         ← Auto-activity updater (every 6h)
+  └── assets/
+      └── banner.txt                     ← This file (design spec)
+
+═══════════════════════════════════════════════════════════════════════
+
+BRAND POSITIONING:
+  Primary:   Founder & CEO @ AVYON Technologies
+  Secondary: AI Architect | Agentic AI | Evidence-Gated RAG | MLOps
+  Narrative: "Building verifiable AI systems for high-stakes enterprise environments"
+  Tone:      High-authority · Technical depth · Builder-first · NO student tone
+
+═══════════════════════════════════════════════════════════════════════
+
+VERIFIED METRICS (from Profile.pdf — use ONLY these, no fabrication):
+  Hallucination Rate:      < 1%        (TruthChat · Verifier-Gated Decoding)
+  Retrieval Recall@k:      ≥ 0.90      (Hybrid BM25 + FAISS + BGE-Large)
+  SAHELO R²:               > 0.998     (EV Load Optimization)
+  Grid Volatility Reduced: 20%         (SAHELO)
+  Students Mentored:       500+        (IIIT Lucknow TA)
+  Platform Users:          5,000+      (Talents Point EdTech)
+  DAU Growth:              40%         (Talents Point)
+  Exams Managed:           500+        (TCS iON)
+
+═══════════════════════════════════════════════════════════════════════
+Built for: Vinay Kumar Singh / AVYON Technologies / vinay-singh-ai
+Document: assets/banner.txt · Version 1.0
