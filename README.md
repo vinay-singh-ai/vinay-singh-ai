@@ -269,13 +269,10 @@ Market        →  Legal · Finance · Government (regulated enterprise AI)
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vinay-singh-ai&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&area_color=0f2942"/>
 </div>
 
-<!-- Snake animation — uncomment after manually triggering snake.yml from Actions tab -->
-<!-- Once triggered, the output branch is created and the snake SVG is live -->
-<!--
+<!-- Snake animation — output branch created, SVG is live ✅ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/vinay-singh-ai/vinay-singh-ai/output/github-snake-dark.svg" alt="GitHub contribution snake"/>
 </div>
--->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e7-908a-139a6edaec5c.gif" width="100%">
 
