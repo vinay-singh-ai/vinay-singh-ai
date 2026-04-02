@@ -219,10 +219,17 @@ Market        →  Legal · Finance · Government (regulated enterprise AI)
 
 ## 📊 GitHub Stats
 
+<!-- Profile summary cards — different backend from anuraghazra/stats, less rate-limited -->
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vinay-singh-ai&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinay-singh-ai&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vinay-singh-ai&theme=github_dark" width="100%"/>
+</div>
+
+<div align="center">
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vinay-singh-ai&theme=github_dark"/>
+  &nbsp;
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vinay-singh-ai&theme=github_dark"/>
+  &nbsp;
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vinay-singh-ai&theme=github_dark&utcOffset=5.5"/>
 </div>
 
 <div align="center">
@@ -231,10 +238,27 @@ Market        →  Legal · Finance · Government (regulated enterprise AI)
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Key Achievements
 
+<!-- shields.io badges — no external API, always renders -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vinay-singh-ai&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7"/>
+
+  <img src="https://img.shields.io/badge/Hallucination%20Rate-%3C1%25%20Verified-58a6ff?style=for-the-badge&labelColor=0f2942"/>
+  <img src="https://img.shields.io/badge/Recall%40k-%E2%89%A50.90%20Achieved-58a6ff?style=for-the-badge&labelColor=0f2942"/>
+  <img src="https://img.shields.io/badge/SHA--256%20Provenance-100%25%20Data%20Lineage-58a6ff?style=for-the-badge&labelColor=0f2942"/>
+
+  <br/>
+
+  <img src="https://img.shields.io/badge/SAHELO%20R%C2%B2->0.998%20Accuracy-22c55e?style=for-the-badge&labelColor=0f2942"/>
+  <img src="https://img.shields.io/badge/Grid%20Volatility-Reduced%2020%25-22c55e?style=for-the-badge&labelColor=0f2942"/>
+  <img src="https://img.shields.io/badge/Research-IIIT%20Lucknow-22c55e?style=for-the-badge&labelColor=0f2942"/>
+
+  <br/>
+
+  <img src="https://img.shields.io/badge/Students%20Mentored-500%2B-ff6b35?style=for-the-badge&labelColor=0f2942"/>
+  <img src="https://img.shields.io/badge/Platform%20Users%20Scaled-5%2C000%2B-ff6b35?style=for-the-badge&labelColor=0f2942"/>
+  <img src="https://img.shields.io/badge/DAU%20Growth-40%25%20Increase-ff6b35?style=for-the-badge&labelColor=0f2942"/>
+
 </div>
 
 ---
@@ -245,10 +269,13 @@ Market        →  Legal · Finance · Government (regulated enterprise AI)
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vinay-singh-ai&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&area_color=0f2942"/>
 </div>
 
-<!-- Snake animation — activates after .github/workflows/snake.yml runs on output branch -->
+<!-- Snake animation — uncomment after manually triggering snake.yml from Actions tab -->
+<!-- Once triggered, the output branch is created and the snake SVG is live -->
+<!--
 <div align="center">
   <img src="https://raw.githubusercontent.com/vinay-singh-ai/vinay-singh-ai/output/github-snake-dark.svg" alt="GitHub contribution snake"/>
 </div>
+-->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e7-908a-139a6edaec5c.gif" width="100%">
 

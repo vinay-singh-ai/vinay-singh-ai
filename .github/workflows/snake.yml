@@ -1,6 +1,7 @@
 # snake.yml — Generates contribution snake animation
-# Runs every Sunday midnight UTC + on manual trigger
-# Pushes SVG output to `output` branch for README embedding
+# CRITICAL FIX: requires `permissions: contents: write` to push to output branch
+# Trigger manually: Actions tab → "Generate Snake Animation" → "Run workflow"
+# After first run, uncomment the snake <img> block in README.md
 
 name: Generate Snake Animation
 
@@ -9,13 +10,16 @@ on:
     - cron: "0 0 * * 0"   # Every Sunday at midnight UTC
   workflow_dispatch:        # Manual trigger from Actions tab
 
+permissions:
+  contents: write           # Required to push SVG output to `output` branch
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake animation (light + dark)
+      - name: Generate snake animation (light + dark theme)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: vinay-singh-ai
